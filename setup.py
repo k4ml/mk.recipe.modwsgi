@@ -1,13 +1,12 @@
 from setuptools import setup, find_packages
 import os
 
-version = '0.1'
+version = 'dev'
 
 setup(name='mk.recipe.modwsgi',
       version=version,
       description='WSGI from buildout',
-      long_description=open('README.rst').read() + '\n' +
-                       open(os.path.join('docs', 'HISTORY.txt')).read(),
+      long_description=open('README.rst').read(),
       classifiers=[
         'Development Status :: 3 - Alpha',
         'Framework :: Buildout :: Recipe',
